@@ -4,13 +4,13 @@ This tool can be used to convert HTML with inline styles to an TSX/JSX compatibl
 https://html-inline-styles-converter.com
 
 ## Example:
-####Input:
+#### Input:
 ```html
 <div style="display: none; margin-top: 5px;">
     Some very cool text
 </div>
 ```
-####Output:
+#### Output:
 ```html
 <div style={{"display":"none","marginTop":"5px"}}>
     Some very cool text
