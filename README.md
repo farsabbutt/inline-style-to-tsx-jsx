@@ -3,9 +3,11 @@ This tool can be used to convert HTML with inline styles to an TSX/JSX compatibl
 
 https://html-inline-styles-converter.com
 
+### Tool built with [Astro](https://astro.build)
+
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside this Astro project, you'll see the following folders and files:
 
 ```
 /
@@ -39,5 +41,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`      | Preview your build locally, before deploying       |
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
 | `npm run astro --help` | Get help using the Astro CLI                       |
-
-### Tool built with [Astro](https://astro.build)
