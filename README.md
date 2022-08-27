@@ -11,7 +11,7 @@ https://html-inline-styles-converter.com
 </div>
 ```
 #### Output:
-```html
+```tsx
 <div style={{"display":"none","marginTop":"5px"}}>
     Some very cool text
 </div>
