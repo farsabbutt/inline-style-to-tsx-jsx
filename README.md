@@ -16,7 +16,7 @@ https://html-inline-styles-converter.com
     Some very cool text
 </div>
 ```
-### 🔨 Tool built with [Astro](https://astro.build)
+## 🔨 Tool built with [Astro](https://astro.build)
 
 ## 🚀 Project Structure
 
