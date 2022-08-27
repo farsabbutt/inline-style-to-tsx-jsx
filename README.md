@@ -3,7 +3,7 @@ This tool can be used to convert HTML with inline styles to an TSX/JSX compatibl
 
 https://html-inline-styles-converter.com
 
-## Example:
+## 📜 Example:
 #### Input:
 ```html
 <div style="display: none; margin-top: 5px;">
