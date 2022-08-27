@@ -1,4 +1,4 @@
-# HTML INLINE STYLES CONVERTER TOOL
+# HTML Inline styles to converter tool
 This tool can be used to convert HTML with inline styles to an TSX/JSX compatible HTML
 
 https://html-inline-styles-converter.com
