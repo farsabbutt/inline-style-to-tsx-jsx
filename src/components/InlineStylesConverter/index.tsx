@@ -1,20 +1,5 @@
 import React, {CSSProperties, useState} from 'react'
 
-//@TODO: Need to define all the mappings!
-const CSSPropertyKeyMappings: Record<string, keyof CSSProperties> = {
-    "margin-right": "marginRight",
-    "margin-left": "marginLeft",
-    "margin-top": "marginTop",
-    "margin-bottom": "marginBottom",
-    "padding-right": "paddingRight",
-    "padding-left": "paddingLeft",
-    "padding-top": "paddingTop",
-    "padding-bottom": "paddingBottom",
-    "touch-action": "touchAction",
-    "background-image": "backgroundImage",
-    "transform-origin": "transformOrigin"
-}
-
 export default function InlineStylesConverter() {
     const [html, setHtml] = useState('')
     const [result, setResult] = useState(null)
@@ -43,8 +28,9 @@ export default function InlineStylesConverter() {
 
                                 if (key) {
                                     key = key.trim()
-                                    if (CSSPropertyKeyMappings[key]) {
-                                        key = CSSPropertyKeyMappings[key]
+                                    const splittedKey = key.split('-')
+                                    if (splittedKey.length > 1) {
+                                        key = splittedKey[0] + splittedKey[1][0].toUpperCase() + splittedKey[1].slice(1)
                                     }
                                 }
                                 if (value) { value = value.trim() }
