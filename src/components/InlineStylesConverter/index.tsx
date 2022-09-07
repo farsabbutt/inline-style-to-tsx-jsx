@@ -5,7 +5,7 @@ export default function InlineStylesConverter() {
     const [result, setResult] = useState(null)
     const convertInlineStylesToJsxTsxCompatible = () => {
         let m;
-        const regex = /style="[a-zA-z0-9-(&\/.),%: ;"]+/gm;
+        const regex = /style="[a-zA-z0-9-(&\/.),%#': ;"]+/gm;
         let output = html;
 
         while ((m = regex.exec(html)) !== null) {
